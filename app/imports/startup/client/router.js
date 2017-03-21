@@ -8,17 +8,24 @@ FlowRouter.route('/', {
   },
 });
 
-FlowRouter.route('/list', {
-  name: 'List_Stuff_Page',
+FlowRouter.route('/section-list', {
+  name: 'Section_List_Page',
   action() {
-    BlazeLayout.render('App_Body', { main: 'List_Stuff_Page' });
+    BlazeLayout.render('App_Body', { main: 'Section_List_Page' });
   },
 });
 
-FlowRouter.route('/add', {
-  name: 'Add_Stuff_Page',
+FlowRouter.route('/create-section', {
+  name: 'Create_Section_Page',
   action() {
-    BlazeLayout.render('App_Body', { main: 'Add_Stuff_Page' });
+    BlazeLayout.render('App_Body', { main: 'Create_Section_Page' });
+  },
+});
+
+FlowRouter.route('/edit-section/:id', {
+  name: 'Edit_Section_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Edit_Section_Page' });
   },
 });
 
