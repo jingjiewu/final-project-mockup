@@ -15,6 +15,13 @@ FlowRouter.route('/section-list', {
   },
 });
 
+FlowRouter.route('/calendar', {
+  name: 'Calendar_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Calendar_Page' });
+  },
+});
+
 FlowRouter.route('/create-section', {
   name: 'Create_Section_Page',
   action() {

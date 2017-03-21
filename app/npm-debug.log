@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/jingjiewu/.meteor/packages/meteor-tool/.1.4.2_6.kzbesg++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/node',
+1 verbose cli   '/Users/jingjiewu/.meteor/packages/meteor-tool/.1.4.2_6.kzbesg++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'start' ]
+2 info using npm@4.1.2
+3 info using node@v4.7.3
+4 verbose stack Error: Invalid name: "study buddy"
+4 verbose stack     at ensureValidName (/Users/jingjiewu/.meteor/packages/meteor-tool/.1.4.2_6.kzbesg++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:336:15)
+4 verbose stack     at Object.module.exports.fixNameField (/Users/jingjiewu/.meteor/packages/meteor-tool/.1.4.2_6.kzbesg++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:215:5)
+4 verbose stack     at /Users/jingjiewu/.meteor/packages/meteor-tool/.1.4.2_6.kzbesg++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:32:38
+4 verbose stack     at Array.forEach (native)
+4 verbose stack     at normalize (/Users/jingjiewu/.meteor/packages/meteor-tool/.1.4.2_6.kzbesg++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:31:15)
+4 verbose stack     at final (/Users/jingjiewu/.meteor/packages/meteor-tool/.1.4.2_6.kzbesg++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/read-package-json/read-json.js:349:5)
+4 verbose stack     at then (/Users/jingjiewu/.meteor/packages/meteor-tool/.1.4.2_6.kzbesg++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
+4 verbose stack     at ReadFileContext.<anonymous> (/Users/jingjiewu/.meteor/packages/meteor-tool/.1.4.2_6.kzbesg++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/read-package-json/read-json.js:295:20)
+4 verbose stack     at ReadFileContext.callback (/Users/jingjiewu/.meteor/packages/meteor-tool/.1.4.2_6.kzbesg++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16)
+4 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:303:13)
+5 verbose cwd /Users/jingjiewu/Documents/final-project-mockup/app
+6 error Darwin 16.4.0
+7 error argv "/Users/jingjiewu/.meteor/packages/meteor-tool/.1.4.2_6.kzbesg++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/node" "/Users/jingjiewu/.meteor/packages/meteor-tool/.1.4.2_6.kzbesg++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/npm" "run" "start"
+8 error node v4.7.3
+9 error npm  v4.1.2
+10 error Invalid name: "study buddy"
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
